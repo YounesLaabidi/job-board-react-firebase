@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: "Martian Mono"; */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.gap-3 {
+  gap: 10px;
+}
+h1 {
+  font-size: 32px;
+}
+
+.candidats-card {
+  border: 1px solid black;
+}
+.nav {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.home {
+  margin-top: 1rem;
+}
+
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.user__signout-btn {
+  height: fit-content;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-start {
+}
+
+.gap-7 {
+  gap: 7px;
+}
+
+.height-fit-content {
+  height: fit-content;
+}
+
+textarea {
+  display: block;
+}
+
+a {
+  display: inline-block;
+}
+
+/* signup form */
+
+.signin-container,
+.signup-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+form {
+  height: fit-content;
+}
+
+.margin-right-auto {
+  margin-right: auto;
+}
+
+.width-50px {
+  width: 50px;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.bg-dark {
+  color: white;
+  background: black;
+  padding: 20px 0;
+}
+
+.footer {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.position-absolute {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.search-input {
+  width: 40%;
+  margin: 15px 0;
+  padding: 5px 20px;
+  font-size: 1rem;
+}
+
+.form-container {
+  width: 404px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+/* CUSTOM STYLE */
+
+.bg_gradient {
+  background: linear-gradient(0deg, #101010, rgba(0, 0, 0, 0.12));
+  transition: all 1s ease-in;
+}
+
+.bg_gradient:hover {
+  background: linear-gradient(0deg, #101010, rgba(0, 0, 0, 0.47));
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(47deg);
+}
