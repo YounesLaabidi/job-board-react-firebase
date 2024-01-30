@@ -25,7 +25,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/job-board-app.git
+   git clone [https://github.com/your-username/job-board-app.git](https://github.com/YounesLaabidi/job-board-react-firebase.git)
    cd job-board-app
    ```
 
